@@ -1,0 +1,13 @@
+{
+  "name": "aries-issuer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "ts-node-dev --respawn --transpile-only ./src/agent.ts"
+  },
+  "dependencies": {
+    "@aries-framework/core": "0.4.0",
+    "@aries-framework/node": "0.4.0"
+  }
+}
